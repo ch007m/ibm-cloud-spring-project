@@ -113,16 +113,40 @@ APPSERVICE
 The app, demo1, has been successfully saved into the current directory.
 ```
 
-To be configured
+Now that the application has been created locally, we will build and deploy it on the IBM Cloud platform using one of the hosting environment supported
+
+As a Docker container on a Kubernetes cluster
+As a Cloud Foundry app
+As a serverless function
+As VMware
+As a virtual machine
+On high-performance Bare Metal Servers
+
+As the existing account is free of charge, we will use the cloudfoundry hosting environment to install it 
 
 ```bash
-/Users/dabou/MyApplications/ibmtools/ibmcloud dev list
-FAILED
-Not logged in. Use '/Users/dabou/MyApplications/ibmtools/ibmcloud login' to log in.
-In addition to being logged in, you must set a region with
-`/Users/dabou/MyApplications/ibmtools/ibmcloud target -r REGION`.
-You must also target an organization and a space.
-Use '/Users/dabou/MyApplications/ibmtools/ibmcloud target --cf' or '/Users/dabou/MyApplications/ibmtools/ibmcloud target -o ORG -s SPACE'
+ibmcloud login -u chm56 -p TqGSe_4dLq\!xcN\! -r eu-gb
+ibmcloud target --cf 
+Targeted Cloud Foundry (https://api.eu-gb.bluemix.net)
+Targeted org chm56
+Select a space (or press enter to skip):
+1. dev
+2. snowdrop
+Enter a number> 2
+Targeted space snowdrop
+
+                      
+API endpoint:      https://cloud.ibm.com   
+Region:            eu-gb   
+User:              cmoulliard@redhat.com   
+Account:           Charles Moulliard's Account (83a4b90035934171a66e48152d22d912)   
+Resource group:    Default   
+CF API endpoint:   https://api.eu-gb.bluemix.net (API version: 2.128.0)   
+Org:               chm56   
+Space:             snowdrop   
+
+ibmcloud dev get-credentials
+
 ```
 
 ## Cloud Building
