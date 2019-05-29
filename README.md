@@ -152,4 +152,5 @@ Plugins: https://plugins.cloud.ibm.com/ui/repository.html
 
 ## Social
 
-Slack server : https://ibm-cloud-tech.slack.com
+[IBM Slack server](https://ibm-cloud-tech.slack.com)
+[#spring-at-ibm](https://ibm-cloud-tech.slack.com/?redir=%2Fmessages%2FC85E8V4G1)
