@@ -30,7 +30,21 @@ An example of the project generated using the IBM cloud is available [here](spri
 
 See doc available on the IBM cloud web site - https://cloud.ibm.com/docs/cli?topic=cloud-cli-developing
 
-**Remark**: The interative mode of the tool don't offer the possibility to select the version of Spring Boot like also the starters
+The procedure to install the tool is [defined here](https://cloud.ibm.com/docs/cli?topic=cloud-cli-ibmcloud-cli#ibmcloud-cli) and will require to install or have the [following tools](https://github.com/IBM-Cloud/ibm-cloud-developer-tools/blob/master/linux-installer/idt-installer).
+
+- Homebrew (Mac only)
+- Git
+- Docker
+- Helm
+- kubectl
+- curl
+- IBM Cloud Developer Tools plug-in
+- IBM Cloud Functions plug-in
+- IBM Cloud Container Registry plug-in
+- IBM Cloud Kubernetes Service plug-in
+- sdk-gen plug-in 
+
+**Remark**: The interactive mode of the tool don't offer the possibility to select the version of Spring Boot like also the starters
 
 If the tool has been installed like the plugin `dev`
 
