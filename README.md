@@ -99,6 +99,18 @@ APPSERVICE
 The app, demo1, has been successfully saved into the current directory.
 ```
 
+To be configured
+
+```bash
+/Users/dabou/MyApplications/ibmtools/ibmcloud dev list
+FAILED
+Not logged in. Use '/Users/dabou/MyApplications/ibmtools/ibmcloud login' to log in.
+In addition to being logged in, you must set a region with
+`/Users/dabou/MyApplications/ibmtools/ibmcloud target -r REGION`.
+You must also target an organization and a space.
+Use '/Users/dabou/MyApplications/ibmtools/ibmcloud target --cf' or '/Users/dabou/MyApplications/ibmtools/ibmcloud target -o ORG -s SPACE'
+```
+
 ## Cloud Building
 
 IBM proposes a dual docker build approach as described [hereafter](https://openliberty.io/blog/2018/07/02/creating-dual-layer-docker-images-for-spring-boot-apps.html).
