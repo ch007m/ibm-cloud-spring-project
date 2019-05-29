@@ -28,4 +28,13 @@ The Spring project created at the previous step will be next build using [`Docke
 The final image of the application will be created from the [ibm java docker image](https://hub.docker.com/_/ibmjava?tab=description) - `FROM ibmjava:8-sfj` which is a image created top
 of [ubuntu](https://github.com/ibmruntimes/ci.docker/blob/a1994e0c3f71ef3ca4c25a5b8e57bb7bd5ec27ff/ibmjava/8/sfj/ubuntu/Dockerfile)
 
+### Docker images
+
+IBM proposes different developers [Java 8](https://github.com/ibmruntimes/ci.docker/tree/a1994e0c3f71ef3ca4c25a5b8e57bb7bd5ec27ff/ibmjava) images supporting :
+- Apache Maven: https://github.com/ibmruntimes/ci.docker/tree/a1994e0c3f71ef3ca4c25a5b8e57bb7bd5ec27ff/ibmjava/8
+- SDK (alpine, ubi, ubuntu): https://github.com/ibmruntimes/ci.docker/tree/a1994e0c3f71ef3ca4c25a5b8e57bb7bd5ec27ff/ibmjava/8/sdk
+- JRE (rhel, ubuntu, alpine): https://github.com/ibmruntimes/ci.docker/tree/a1994e0c3f71ef3ca4c25a5b8e57bb7bd5ec27ff/ibmjava/8/jre
+- SFJ (light JRE)
+
 sfj is a **S**mall **F**ootprint **J**RE, available on Linux operating systems only, contains a lightweight version of the IBM® runtime environment for Java™.- https://www.ibm.com/support/knowledgecenter/en/SSYKE2_8.0.0/com.ibm.java.80.doc/user/small_jre.html
+
