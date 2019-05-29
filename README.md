@@ -17,7 +17,6 @@ References:
 - Guides: https://openliberty.io/guides/
 - Format supported: jar/war or osgi bundles: http://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS218-354/index.html&request_locale=en
 
-
 ## Code generator
 
 A Spring Boot project can be created using one of the following [approaches](https://developer.ibm.com/microservice-builder/2017/08/03/creating-new-java-microservice-microservice-builder/)
@@ -26,6 +25,79 @@ A Spring Boot project can be created using one of the following [approaches](htt
 - [Liberty App Accelerator](http://liberty-app-accelerator.wasdev.developer.ibm.com/start/)
 
 An example of the project generated using the IBM cloud is available [here](spring-project)
+
+## Cloud Development
+
+See doc available on the IBM cloud web site - https://cloud.ibm.com/docs/cli?topic=cloud-cli-developing
+
+**Remark**: The interative mode of the tool don't offer the possibility to select the version of Spring Boot like also the starters
+
+If the tool has been installed like the plugin `dev`
+
+```bash
+/Users/dabou/MyApplications/ibmtools/ibmcloud install dev
+``` 
+
+then execute this command to create an application
+
+```bash
+/Users/dabou/MyApplications/ibmtools/ibmcloud dev create
+Log in to IBM Cloud using the ./ibmcloud/ibmcloud login command to synchronize your apps with the IBM Cloud dashboard, and to enable the use of IBM Cloud services in your app.
+Do you wish to continue without logging in?
+?  [Y/n]> Y
+
+============================================================================================================================================================================================================================
+Select an application type:
+
+ 1. Blank App
+ 2. Backend Service / Web App
+ 3. Mobile App
+-----------------------------------------------------------------------
+ 0. Exit
+
+============================================================================================================================================================================================================================
+? Enter selection number:> 2
+
+============================================================================================================================================================================================================================
+Select a language:
+
+ 1. Go
+ 2. Java - MicroProfile / Java EE
+ 3. Java - Spring
+ 4. Node
+ 5. Python - Django
+ 6. Python - Flask
+ 7. Scala
+ 8. Swift
+-----------------------------------------------------------------------
+ 0. Return to the previous selection
+
+============================================================================================================================================================================================================================
+? Enter selection number:> 3
+
+============================================================================================================================================================================================================================
+Select a Starter Kit:
+
+APPSERVICE
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 1. Java BFF Example with Spring - A starter building backend-for-frontend APIs in Java, using the Spring framework.
+
+ 2. Java Microservice with Spring - A starter building a microservice backend in Java, using the Spring framework.
+
+ 3. Java Web App with Spring - A starter that provides a basic web serving application in Java, using the Spring framework.
+
+-----------------------------------------------------------------------
+ 0. Return to the previous selection
+
+============================================================================================================================================================================================================================
+? Enter selection number:> 2
+
+? Enter a name for your application> demo1
+
+
+The app, demo1, has been successfully saved into the current directory.
+```
 
 ## Cloud Building
 
@@ -47,3 +119,11 @@ IBM proposes different developers [Java 8](https://github.com/ibmruntimes/ci.doc
 The [IBM SDK](https://www.ibm.com/support/knowledgecenter/SSYKE2_8.0.0/com.ibm.java.80.doc/user/java_sdk.html) is equivalent to OpenJDK as it provides the Java runtime plus also development [tools](https://www.ibm.com/support/knowledgecenter/SSYKE2_8.0.0/com.ibm.java.80.doc/user/java_sdk.html)
 
 ## Tooling
+
+IBM Cloud Tool: 
+
+Plugins: https://plugins.cloud.ibm.com/ui/repository.html
+
+## Social
+
+Slack server : https://ibm-cloud-tech.slack.com
