@@ -4,10 +4,20 @@
 
 ### OpenLiberty and Spring Boot
   
-- Info: https://jaxenter.com/ibm-liberty-update-146472.html
-- Platforms: cloudfoundry, docker or baremetal: https://www.ibm.com/cloud/blog/open-liberty-loves-spring
-- Format supported: jar/war or osgi bundles: http://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS218-354/index.html&request_locale=en
+OpenLiberty is a JavaEE platform designed as an OSGI runtime and where we can deploy Spring Boot applications packaged as jar, war files.
+The platform supports Spring Boot 1.5.x or 2.x  and a [few starters](https://www.ibm.com/support/knowledgecenter/en/SSD28V_9.0.0/com.ibm.websphere.wlp.core.doc/ae/rwlp_springboot.html):
+
+spring-boot-starter
+spring-boot-starter-web
+spring-boot-starter-websocket
+spring-boot-starter-webflux
+
+OpenLiberty supports 3 [different platforms](https://www.ibm.com/cloud/blog/open-liberty-loves-spring) : cloudfoundry, docker/kubernetes or baremetal
+
+References:
+
 - Guides: https://openliberty.io/guides/
+- Format supported: jar/war or osgi bundles: http://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/4/897/ENUS218-354/index.html&request_locale=en
 
 ### Tooling
 
